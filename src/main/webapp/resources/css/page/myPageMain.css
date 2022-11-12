@@ -1,0 +1,68 @@
+@import "../common/default.css";
+/* 이걸 각자 만드는 css 모듈마다 import 해줘야 default.css에 정의된 컬러변수를 사용할 수 있음 */
+
+.user-skin {
+    height: 15rem;
+    margin: auto auto -7rem;
+}
+
+.user-profile {
+    margin: 2rem;
+}
+
+.user_profile_img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 14rem;
+    height: 14rem;
+}
+
+.user_nickname {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.user_info {
+    margin: 0rem;
+    font-size: 1.6rem;
+}
+
+.dopa-point {
+}
+
+.list {
+}
+
+.list_col {
+}
+
+.mypage_h2 {
+}
+
+.mypage_carda {
+    border: var(--main-grey) 1px solid;
+    border-radius: 1rem;
+}
+
+.mypage_cardb {
+    padding: .5rem;
+}
+
+.mypage-cardc {
+    border: orange solid 3px;
+    border-radius: 2rem;
+}
+
+.mypage-icon{
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+
+.mypage-title{
+    font-size: 2rem;
+}
+
+.col-4 {
+    margin-bottom: 2rem;
+}

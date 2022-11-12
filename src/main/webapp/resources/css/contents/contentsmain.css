@@ -1,0 +1,95 @@
+@import "../common/default.css";
+/* 이걸 각자 만드는 css 모듈마다 import 해줘야 default.css에 정의된 컬러변수를 사용할 수 있음 */
+
+/*메인 화면 검색창 속성*/
+.search-bg-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://img.freepik.com/free-vector/flat-comic-style-background_23-2148819596.jpg?w=2000&t=st=1662055031~exp=1662055631~hmac=dda1a216b99008111b605c978ba018d7f62b7cdffbadaac3da84eb7b5adda377') no-repeat;
+    background-size : cover;
+    height: 28rem;
+}
+.search-main-text {
+    text-align: center;
+    font-size: 5rem;
+}
+.search-sc-text{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.search-container{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.search-option{
+    width: 7rem;
+    height: 40px;
+    background-color: var(--main-grey2);
+}
+
+.search-option:focus {
+    border: none;
+}
+
+.search-input-wrapper {
+    background: var(--main-grey2) url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIyIDIyIj4KICAgIDxwYXRoIGZpbGw9IiNCQUJBQzMiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTkuODE0IDE1LjczNWMtMy4yMDcgMC01LjgxNy0yLjYzLTUuODE3LTUuODYxIDAtMy4yMzMgMi42MS01Ljg2MiA1LjgxNy01Ljg2MiAzLjIwNyAwIDUuODE4IDIuNjMgNS44MTggNS44NjJzLTIuNjEgNS44Ni01LjgxOCA1Ljg2bTkuODQxIDIuNTRsLTMuNjYtMy43MDRjLjk4LTEuMzEgMS41NzEtMi45MzIgMS41NzEtNC42OTYgMC00LjMwOC0zLjQ3OC03LjgxMi03Ljc1Mi03LjgxMi00LjI3NCAwLTcuNzUyIDMuNTA0LTcuNzUyIDcuODEyIDAgNC4zMDcgMy40NzggNy44MSA3Ljc1MiA3LjgxIDEuODI5IDAgMy41MDctLjY0NCA0LjgzNC0xLjcxNGwzLjYzNyAzLjY4Yy4xODIuMTg2LjQyNi4yODguNjg1LjI4OC4yNTcgMCAuNS0uMS42ODMtLjI4NC4xODItLjE4NC4yODQtLjQzLjI4NS0uNjkgMC0uMjYtLjEtLjUwNS0uMjgzLS42OSIvPgo8L3N2Zz4K) no-repeat 9px 8px;
+    padding: 7px 10px 8px 36px;
+    border-radius: 2px;
+    border: 1px solid;
+}
+
+/*!*검색창*!*/
+.main-search-input{
+    background: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 3px;
+    width: 15rem;
+    border: none;
+}
+
+.main-search-input:focus {
+    outline: none;
+}
+
+.recommend-content {
+    margin-top: 2rem;
+}
+
+.recommend-mention {
+    font-size: 2rem;
+}
+
+/*적용할 태그 속성 body, div를 쓰고 괄호안에 css 속성을 넣으면 된다*/
+
+/*main poster*/
+#poster-image{
+    width: 200px;
+    height: 320px;
+}
+/*포인트시 포스터 확대*/
+#poster-img:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: scale(1.05);
+}
+.contents_container{
+    margin-top: 2.4rem;
+    justify-content: center;
+    display:flex;   /*요소들을 가로로 수평 정렬*/
+}
+.detail-container {
+    border-radius: 0.32rem;
+    cursor: pointer;
+    margin: 0 1.2rem;
+}
+.detail-container:last-child{
+    margin-right: 0;
+}
+
+.contents_title{
+    font-size:20px;
+}
+
