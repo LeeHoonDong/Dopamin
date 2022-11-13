@@ -52,4 +52,3 @@ Front-end : <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-ba
 이 프로젝트의 DB는 총 **35개** 의 테이블과 **330개**의 컬럼으로 이루어져 있습니다.    
 ![db](https://user-images.githubusercontent.com/96059261/198163653-3995e62b-ce65-4067-a5ff-f6ea68d95006.png)
 
-
